@@ -1,0 +1,16 @@
+.footer-wrapper p {
+    text-align: center;
+}
+
+.footer-wrapper p.pay {
+    margin-top: 0px;
+    line-height: 0px;
+    font-size: 24px;
+}
+
+.footer-wrapper {
+    border-top: solid thin;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}

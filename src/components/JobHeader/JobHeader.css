@@ -1,0 +1,18 @@
+.job-header {
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Crimson Text', serif;
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+p.billing {
+    font-size: 22px;
+}
+
+p.total-amount {
+    font-size: 40px;
+    margin-top: -30px;
+}

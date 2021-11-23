@@ -1,0 +1,12 @@
+.bill-to-card p.details {
+    font-size: 22px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    line-height: 24px;
+}
+
+.bill-to-card p.address {
+    font-size: 18px;
+    line-height: 6px;
+
+}

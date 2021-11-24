@@ -120,7 +120,7 @@ job2710.pdf = true;
 jobs.push(job2710);
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
-const job2711 = new Job(2711, 3, "Publishing Management Associates", "FT House Ads", "Four half-page ads for <em>First Things</em> magazine: Back issue organizer, Books, Creed DVD, Reprint Series", "August 12, 2021", "August 30, 2021");
+const job2711 = new Job(2711, 3, "Publishing Management Associates", "FT House Ads", "Four half-page ads for First Things magazine: Back issue organizer, Books, Creed DVD, Reprint Series", "August 12, 2021", "August 30, 2021");
 job2711.hours_logged[0] = {Date: "Aug 12", Hours: 1, Note: "Create Reprint Series ad"};
 job2711.hours_logged[1] = {Date: "Aug 19", Hours: .25, Note: "Revise Reprint Series ad"};
 job2711.hours_logged[2] = {Date: "Aug 20", Hours: .5, Note: "Create Creed DVD ad"};
@@ -166,7 +166,7 @@ jobs.push(job2713);
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
-const job2714 = new Job(2714, 6, "Biretta Books", "Benefit Prayer Cards", "Holy cards sized 3.25 x 5.5 w/ bleed, four color", "September 1, 2021", "September 8, 2021");
+const job2714 = new Job(2714, 6, "Biretta Books", "Benefit Prayer Cards", "A prayer card, sized 3.25 x 5.5 w/ bleed, four color", "September 1, 2021", "September 8, 2021");
 job2714.hours_logged[0] = {Date: "Sept 2", Hours: .25, Note: "Getting organized"};
 job2714.hours_logged[1] = {Date: "Sept 4", Hours: .5, Note: "Initial layout, St. Joseph"};
 job2714.thumbnail = true;
@@ -194,7 +194,7 @@ job2715.pdf = true;
 jobs.push(job2715);
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
-const job2716 = new Job(2716, 8, "Publishing Management Associates", "PMA Small Ads 2", "Reno Future of Christianity", "September 10, 2021", "November 5, 2021");
+const job2716 = new Job(2716, 8, "Publishing Management Associates", "PMA Small Ads 2", "Small ads, created or reformatted", "September 10, 2021", "November 5, 2021");
 job2716.hours_logged[0] = {Date: "Sept 11", Hours: 1, Note: "Wash College ad"};
 job2716.hours_logged[1] = {Date: "Sept 21", Hours: .5, Note: "Tolstoy &amp; W. College"};
 job2716.hours_logged[2] = {Date: "Sept 21", Hours: .5, Note: "FST More Images"};
@@ -234,7 +234,7 @@ job2717.completed_date = "October 26, 2021";
 job2717.date_billed = "October 26, 2021";
 jobs.push(job2717);
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
-const job2718 = new Job (2718, 10, "Publishing Management Associates", "PMA Small Ads 3", "Small Ads and Images Made Ready for Print", "November 18, 2021", "N/A");
+const job2718 = new Job (2718, 10, "Publishing Management Associates", "PMA Small Ads 3", "Small ads, created or reformatted", "November 18, 2021", "N/A");
 job2718.hours_logged[0] = {Date: "Nov 18", Hours: .25, Note: "McClay"};
 job2718.hours_logged[1] = {Date: "Nov 18", Hours: .25, Note: "Gottfried"};
 job2718.hours_logged[2] = {Date: "Nov 20", Hours: 1, Note: "FT Lecture Ad"};

@@ -2,13 +2,13 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import './JobCard.css';
 import ProgressBar from '../ProgressBar/ProgressBar.js';
-import HoursLogCard from '../HoursLogCard/HoursLogCard.js';
-import HoursLogCard2 from '../HoursLogCard2/HoursLogCard2.js';
+import HoursBlock1 from '../HoursBlock1/HoursBlock1.js';
+import HoursBlock2 from '../HoursBlock2/HoursBlock2.js';
 import JobHeader from '../JobHeader/JobHeader.js';
 import Footer from '../Footer/Footer.js';
 import JobDetails from '../JobDetails/JobDetails.js';
 import Thumbnail from '../Thumbnail/Thumbnail.js';
-import BillToCard from '../BillToCard/BillToCard.js';
+import AddressBlock from '../AddressBlock/AddressBlock.js';
 
 export default function JobCard({ ...props }) {
 
@@ -52,12 +52,12 @@ export default function JobCard({ ...props }) {
                         </Container>
                     </Col>
                     <Col lg={2}> {/*Hours Log Column*/}
-                        <HoursLogCard 
+                        <HoursBlock1 
                             {...props}
                         />
                     </Col>
                     <Col lg={2}> {/*Hours Log Column*/}
-                        <HoursLogCard2 
+                        <HoursBlock2 
                                 {...props}
                             />
                     </Col> 

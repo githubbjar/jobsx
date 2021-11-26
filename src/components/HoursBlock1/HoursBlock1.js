@@ -1,9 +1,9 @@
 import React from 'react';
 import { Col } from 'react-bootstrap';
 
-import './HoursLogCard.css';
+import './HoursBlock1.css';
 
-export default function HoursLogCard({ hours_logged, total_hours, rate_of_pay }) {
+export default function HoursBlock1 ({ hours_logged, total_hours, rate_of_pay }) {
     return(
     
         <Col>

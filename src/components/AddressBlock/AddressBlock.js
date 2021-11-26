@@ -1,5 +1,5 @@
 import React from 'react';
-import './BillToCard.css';
+import './AddressBlock.css';
 
 export default function BillToCard({ contact, contact_email, employer, employer_address1, employer_address2 }) {
     return (

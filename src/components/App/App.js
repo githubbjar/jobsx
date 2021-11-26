@@ -3,15 +3,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import jobs from './data';
 import JobCard from '../JobCard/JobCard.js';
-
-import TopMost from '../TopMost/TopMost.js';
+import NavigationBar from '../NavigationBar/NavigationBar.js';
 
 
 function App() {
   return (
             
             <div class="wrapper">
-                    <TopMost />
+                    <NavigationBar />
 
                     {jobs.slice(0).reverse().map(job => (
                       <JobCard 

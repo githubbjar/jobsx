@@ -44,7 +44,7 @@ export default function JobCard({ ...props }) {
                                     />
                                 </Col>
                                 <Col lg={4}>
-                                    <BillToCard 
+                                    <AddressBlock 
                                         {...props}
                                     />
                                 </Col>    

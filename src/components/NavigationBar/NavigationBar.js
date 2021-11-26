@@ -1,14 +1,15 @@
 import React from 'react';
-import './TopMost.css';
+import './NavigationBar.css';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import jobs from '../App/data.js';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Container from 'react-bootstrap/Container';
 import JobNumber from '../JobNumber/JobNumber.js';
+import Totals from '../Totals/Totals.js';
 
 
-export default function TopMost() {
+export default function NavigationBar() {
     const numOfJobs = "Freelance Jobs (" + jobs.length + ")";
     return <div className="top-most-wrapper">
         <Navbar bg="light" expand="lg" fixed="top">
@@ -26,8 +27,8 @@ export default function TopMost() {
                                         project={job.project}
                                     />
                                 ))}
-                              <NavDropdown.Divider />
                             </NavDropdown>
+                            <Totals />
                           </Nav>
                         </Navbar.Collapse>
                       </Container>

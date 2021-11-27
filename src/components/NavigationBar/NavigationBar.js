@@ -7,6 +7,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Container from 'react-bootstrap/Container';
 import JobNumber from '../JobNumber/JobNumber.js';
 import Totals from '../Totals/Totals.js';
+import Clients from '../Clients/Clients.js';
 
 
 export default function NavigationBar() {
@@ -27,6 +28,9 @@ export default function NavigationBar() {
                                         project={job.project}
                                     />
                                 ))}
+                            </NavDropdown>
+                            <NavDropdown title="Clients" id="basic-nav-dropdown">
+                              <Clients />
                             </NavDropdown>
                             <Totals />
                           </Nav>

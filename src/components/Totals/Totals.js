@@ -41,6 +41,18 @@ export default function Totals() {
     const toBeBilled = toBeBilledArray.reduce(add, 0);
     
 
+    {/*  Billed Amount & Billed (but not paid) Jobs Jobs List */}
+    const billedNotPaidArray = [];
+    const billedNotPaidJobsArray = [];
+    for (let i = 0; i < jobs.length; i++) {
+      if (jobs[i].date_billed && !jobs[i].date_paid) {
+        billedNotPaidArray.push(jobs[i].total_paid());
+        billedNotPaidJobsArray.push(jobs[i].project);
+      }
+    }
+    const billedNotPaid = billedNotPaidArray.reduce(add, 0);
+
+
   return (
     <div id="totals">
       <Nav.Link onClick={handleShow}>Totals</Nav.Link>
@@ -53,9 +65,14 @@ export default function Totals() {
           <p className='modal-total-amount'>${moneyReceived.toFixed(2)}</p>
           <p className='hours-log'>{completedJobsListArray.join(", ")}</p>
           <hr />
+          <p className='header'>Amount Billed (Completed Jobs, {billedNotPaidArray.length}): </p>
+          <p className='modal-total-amount'>${billedNotPaid.toFixed(2)}</p>
+          <p className='hours-log'>{billedNotPaidJobsArray.join(", ")}</p>
+          <hr />
           <p className='header'>Amount to Be Billed (Jobs in Progress, {toBeBilledArray.length}): </p>
           <p className='modal-total-amount'>${toBeBilled.toFixed(2)}</p>
           <p className='hours-log'>{toBeBilledJobsArray.join(", ")}</p>
+
         </Modal.Body>
         <Modal.Footer></Modal.Footer>
       </Modal>

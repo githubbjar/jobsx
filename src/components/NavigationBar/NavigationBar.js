@@ -12,6 +12,16 @@ import Clients from '../Clients/Clients.js';
 
 export default function NavigationBar() {
     const numOfJobs = "Freelance Jobs (" + jobs.length + ")";
+
+    function getEmployers() {
+      let allEmployers = [];
+      for (let i = 0; i < jobs.length; i++) {
+          allEmployers.push(jobs[i].employer);
+      };
+      return [...new Set(allEmployers)]
+    };
+    getEmployers();
+
     return <div className="top-most-wrapper">
         <Navbar bg="light" expand="lg" fixed="top">
                       <Container>

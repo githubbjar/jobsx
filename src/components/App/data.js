@@ -7,31 +7,31 @@ function Job(invoice_number, job_number, employer, project, project_type, start_
     this.job_number = job_number;
     this.employer = employer;
     this.contact = function() {
-        if (this.employer == "Biretta Books") {
+        if (this.employer === "Biretta Books") {
             return "Nick Chapello";
-        } else if (this.employer == "Publishing Management Associates") {
+        } else if (this.employer === "Publishing Management Associates") {
             return "Richard A. Vaughan";
         }
     };
     this.contact_email = function() {
-        if (this.employer == "Biretta Books") {
+        if (this.employer === "Biretta Books") {
             return "nchapello@cantius.org";
-        } else if (this.employer == "Publishing Management Associates") {
+        } else if (this.employer === "Publishing Management Associates") {
             return "ravaughan@pma-inc.net";
         }
     };
     this.secondary_contact = [];
     this.employer_address1 = function() {
-        if (this.employer == "Biretta Books") {
+        if (this.employer === "Biretta Books") {
             return "1025 West Fry Street";
-        } else if (this.employer == "Publishing Management Associates") {
+        } else if (this.employer === "Publishing Management Associates") {
             return "129 Phelps Avenue, Suite 312";
         }
     };
     this.employer_address2 = function() {
-        if (this.employer == "Biretta Books") {
+        if (this.employer === "Biretta Books") {
             return "Chicago, IL 60642-5419";
-        } else if (this.employer == "Publishing Management Associates") {
+        } else if (this.employer === "Publishing Management Associates") {
             return "Rockford, IL 61108";
         }
     };
@@ -40,9 +40,9 @@ function Job(invoice_number, job_number, employer, project, project_type, start_
     this.start_date = start_date;
     this.due_date = due_date;
     this.employer_nickname = function() {
-        if (this.employer == "Biretta Books") {
+        if (this.employer === "Biretta Books") {
             return "Biretta";
-        } else if (this.employer == "Publishing Management Associates") {
+        } else if (this.employer === "Publishing Management Associates") {
             return "PMA";
         }
     };
@@ -62,9 +62,9 @@ function Job(invoice_number, job_number, employer, project, project_type, start_
         return sum;
     };
     this.rate_of_pay = function() {
-        if (this.employer == "Biretta Books") {
+        if (this.employer === "Biretta Books") {
             return 40;
-        } else if (this.employer == "Publishing Management Associates") {
+        } else if (this.employer === "Publishing Management Associates") {
             return 50;
         }
     };
@@ -125,7 +125,7 @@ job2711.hours_logged[0] = {Date: "Aug 12", Hours: 1, Note: "Create Reprint Serie
 job2711.hours_logged[1] = {Date: "Aug 19", Hours: .25, Note: "Revise Reprint Series ad"};
 job2711.hours_logged[2] = {Date: "Aug 20", Hours: .5, Note: "Create Creed DVD ad"};
 job2711.hours_logged[3] = {Date: "Aug 27", Hours: .5, Note: "Create Books Online ad"};
-job2711. hours_logged[4] = {Date: "Aug 30", Hours: 1.5, Note: "Create Slipcase ad"};
+job2711.hours_logged[4] = {Date: "Aug 30", Hours: 1.5, Note: "Create Slipcase ad"};
 job2711.completed_date = "September 1, 2021";
 job2711.date_billed = "September 3, 2021";
 job2711.date_paid = "October 3, 2021";

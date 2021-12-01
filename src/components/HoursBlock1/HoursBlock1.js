@@ -15,7 +15,7 @@ export default function HoursBlock1 ({ hours_logged, total_hours, rate_of_pay })
                 <p className="header">Hours Log: </p>
 
                 {hours_logged.slice(0, 5).map(({ Date, Hours, Note }) => (
-                    <p key={Date} className="hours-log">{Date}, {Hours} Hours<br /><em>&#8226; {Note}</em></p>
+                    <p key={Note} className="hours-log">{Date}, {Hours} Hours<br /><em>&#8226; {Note}</em></p>
                 ))}
             </div>
         </Col>

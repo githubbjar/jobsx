@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import './Totals.css';
 import Nav from 'react-bootstrap/Nav';
 import Modal from 'react-bootstrap/Modal';
@@ -7,17 +7,14 @@ import jobs from '../App/data.js';
 
 
 export default function Totals() {
-    {/* Bootstrap Modal Code */}
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
 
-    {/* Function to Add Arrays */}
     function add(accumulator, a) {
       return accumulator + a;
     }
 
-    {/*  Amount Received & Jobs Paid List */}
     const moneyReceivedArray = [];
     const completedJobsListArray = [];
     for (let i = 0; i < jobs.length; i++) {
@@ -29,7 +26,6 @@ export default function Totals() {
     const moneyReceived = moneyReceivedArray.reduce(add, 0);
 
 
-    {/*  To Be Billed Amount & Unfinished Jobs List */}
     const toBeBilledArray = [];
     const toBeBilledJobsArray = [];
     for (let i = 0; i < jobs.length; i++) {
@@ -41,7 +37,6 @@ export default function Totals() {
     const toBeBilled = toBeBilledArray.reduce(add, 0);
     
 
-    {/*  Billed Amount & Billed (but not paid) Jobs Jobs List */}
     const billedNotPaidArray = [];
     const billedNotPaidJobsArray = [];
     for (let i = 0; i < jobs.length; i++) {

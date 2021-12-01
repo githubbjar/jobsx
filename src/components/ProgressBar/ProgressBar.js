@@ -45,8 +45,7 @@ export default function ProgressBar({
     
     return (
             <>
-            
-                <a name={invoice_number}></a>
+                <a name={invoice_number} href="http://www.jerryjanquart.com">&nbsp;</a>
                 <div className="special-margin"></div>
                 {columns}
             </>

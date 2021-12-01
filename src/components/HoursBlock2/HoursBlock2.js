@@ -10,7 +10,7 @@ export default function HoursBlock2({ hours_logged }) {
             <div className="hours-log-wrapper">
             {hours_logged[5] && <p className="header">continued... </p>}
                 {hours_logged.slice(5, 20).map(({ Date, Hours, Note }) => (
-                    <p key={Date} className="hours-log">{Date}, {Hours} Hours<br /><em>&#8226; {Note}</em></p>
+                    <p key={Note} className="hours-log">{Date}, {Hours} Hours<br /><em>&#8226; {Note}</em></p>
                 ))}
             </div>
         </Col>

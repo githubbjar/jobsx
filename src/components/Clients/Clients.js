@@ -5,7 +5,6 @@ import jobs from '../App/data.js';
 
 export default function Clients() {
 
-    {/* function returns an array of all clients, removing duplicates  */}
     function getClients() {
         let allClients = [];
         for (let i = 0; i < jobs.length; i++) {
@@ -14,7 +13,6 @@ export default function Clients() {
         return [...new Set(allClients)]
     };
     
-    {/* components returns list of dropdown items using getClients function  */}
     return (
       <>  
       {getClients().map(client => (

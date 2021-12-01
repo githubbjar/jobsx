@@ -9,7 +9,7 @@ import firstthings from './2711.png';
 import broken from './2710.png';
 import musicschudule from './2708.png';
 
-export default function Thumbnail({ invoice_number }) {
+export default function Thumbnail({ invoice_number, project }) {
     let imgThumb = "";
     if (invoice_number === 2717) {imgThumb = ordo;}
     if (invoice_number === 2716) {imgThumb = reno;}
@@ -19,7 +19,8 @@ export default function Thumbnail({ invoice_number }) {
     if (invoice_number === 2711) {imgThumb = firstthings;}
     if (invoice_number === 2710) {imgThumb = broken;}
     if (invoice_number === 2708) {imgThumb = musicschudule;}
+    
     return (
-        <img src={imgThumb} height="300px" />
+        <img src={imgThumb} alt={project} height="300px" />
     )
 }

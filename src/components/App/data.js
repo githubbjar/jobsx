@@ -232,6 +232,7 @@ job2717.thumbnail = true;
 job2717.pdf = true;
 job2717.completed_date = "October 26, 2021";
 job2717.date_billed = "October 26, 2021";
+job2717.date_paid = "December 1, 2021";
 jobs.push(job2717);
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
 const job2718 = new Job (2718, 10, "Publishing Management Associates", "PMA Small Ads 3", "Small ads, created or reformatted", "November 18, 2021", "N/A");

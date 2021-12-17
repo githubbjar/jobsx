@@ -244,6 +244,7 @@ job2718.hours_logged[4] = {Date: "Nov 22", Hours: 1, Note: "FT Text Speech Ad"};
 job2718.hours_logged[5] = {Date: "Dec 8", Hours: .5, Note: "FT ad revisions"};
 job2718.hours_logged[6] = {Date: "Dec 13", Hours: 1, Note: "St. Thomas"};
 job2718.hours_logged[7] = {Date: "Dec 14", Hours: .25, Note: "Ft ad flat Bork"};
+job2718.hours_logged[8] = {Date: "Dec 15", Hours: .25, Note: "Great Hearts"};
 jobs.push(job2718);
 //end the jobs
 //////////////////////////////////////////////////////////////////////////////////////////////////////////

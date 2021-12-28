@@ -246,9 +246,13 @@ job2718.hours_logged[5] = {Date: "Dec 8", Hours: .5, Note: "FT ad revisions"};
 job2718.hours_logged[6] = {Date: "Dec 13", Hours: 1, Note: "St. Thomas"};
 job2718.hours_logged[7] = {Date: "Dec 14", Hours: .25, Note: "Ft ad flat Bork"};
 job2718.hours_logged[8] = {Date: "Dec 15", Hours: .25, Note: "Great Hearts"};
-job2718.hours_logged[9] = {Date: "Dec 17", Hours: .5, Note: "Artwork format (5)"};
+job2718.hours_logged[9] = {Date: "Dec 17", Hours: .5, Note: "Artwork format (6)"};
+jobs2718.hours_logged[10] = {Date: "Dec 28", Hours: 1, Note: "FT McClay Book"};
 jobs.push(job2718);
 //end the jobs
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+const job2719 = new Job(2719, 11, "Biretta Books", "St. John Cantius book", "6x9 book by Fr. Dennis Kolinski, SJC", "December 20, 2021", "N/A");
+jobs.push(job2719);
 
 export default jobs; 

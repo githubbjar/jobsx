@@ -247,7 +247,7 @@ job2718.hours_logged[6] = {Date: "Dec 13", Hours: 1, Note: "St. Thomas"};
 job2718.hours_logged[7] = {Date: "Dec 14", Hours: .25, Note: "Ft ad flat Bork"};
 job2718.hours_logged[8] = {Date: "Dec 15", Hours: .25, Note: "Great Hearts"};
 job2718.hours_logged[9] = {Date: "Dec 17", Hours: .5, Note: "Artwork format (6)"};
-jobs2718.hours_logged[10] = {Date: "Dec 28", Hours: 1, Note: "FT McClay Book"};
+job2718.hours_logged[10] = {Date: "Dec 28", Hours: 1, Note: "FT McClay Book"};
 jobs.push(job2718);
 //end the jobs
 //////////////////////////////////////////////////////////////////////////////////////////////////////////

@@ -256,6 +256,8 @@ jobs.push(job2718);
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 const job2719 = new Job(2719, 11, "Biretta Books", "St. John Cantius book", "6x9 book by Fr. Dennis Kolinski, SJC", "December 20, 2021", "N/A");
+job2719.hours_logged[0] = {Date: "Dec 30", Hours: 2.5, Note: "Initial layouts intro, chpt. 1"};
 jobs.push(job2719);
 
-export default jobs; 
+export default jobs;
+
